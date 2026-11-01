@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Search Career Services | Executive Search, CXO Hiring &amp; Leadership Advisory</title>
+  <meta name="description" content="Search Career Services (SCS) — trusted since 2013. Executive search, CXO hiring and leadership advisory, backed by PAN India talent acquisition across Technology, BFSI, FMCG, BPO and more." />
+  <meta name="theme-color" content="#0b1b33" />
+  <meta property="og:title" content="Search Career Services | Executive Search &amp; Leadership Advisory" />
+  <meta property="og:description" content="We don't just fill positions. We help organizations build leadership teams that define the future." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind (Play CDN). For production, compile with the Tailwind CLI for a smaller, faster CSS file. -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: { 950: '#07111f', 900: '#0b1b33', 800: '#12284a', 700: '#1b3a66' },
+            gold: { 300: '#e6cf9a', 400: '#d4b56a', 500: '#b8924a', 600: '#8f6d2e' },
+            ivory: '#f8f5ee'
+          },
+          fontFamily: {
+            display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['Inter', 'system-ui', '-apple-system', 'Segoe UI', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-ivory font-sans text-slate-800 antialiased">
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header id="site-header" class="fixed inset-x-0 top-0 z-50 transition-all duration-300">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
+      <a href="#home" class="group flex items-center gap-3" aria-label="Search Career Services — home">
+        <span class="flex h-10 w-10 items-center justify-center rounded-sm border border-gold-400 font-display text-xl font-bold text-gold-400 transition group-hover:bg-gold-400 group-hover:text-navy-900" aria-hidden="true">S</span>
+        <span class="leading-tight">
+          <span class="block font-display text-lg font-semibold tracking-wide text-white">Search Career Services</span>
+          <span class="block text-[0.65rem] uppercase tracking-[0.22em] text-gold-300">Since 2013</span>
+        </span>
+      </a>
+
+      <nav aria-label="Primary" class="hidden lg:block">
+        <ul class="flex items-center gap-8 text-sm font-medium text-slate-200">
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#executive-search">Executive Search</a></li>
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#sectors">Sectors</a></li>
+          <li><a class="nav-link" href="#candidates">Candidates</a></li>
+          <li><a href="#contact" class="btn-gold !py-2.5 !px-5">Start a Conversation</a></li>
+        </ul>
+      </nav>
+
+      <button id="menu-toggle" type="button" class="lg:hidden inline-flex h-11 w-11 items-center justify-center rounded-md border border-white/25 text-white transition hover:border-gold-400 hover:text-gold-300"
+              aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <svg id="icon-open" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg id="icon-close" class="hidden h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="hidden border-t border-white/10 bg-navy-900/98 backdrop-blur lg:hidden">
+      <ul class="mx-auto max-w-7xl space-y-1 px-5 py-5 text-base font-medium text-slate-100">
+        <li><a class="mobile-link" href="#about">About</a></li>
+        <li><a class="mobile-link" href="#executive-search">Executive Search</a></li>
+        <li><a class="mobile-link" href="#services">Services</a></li>
+        <li><a class="mobile-link" href="#sectors">Sectors</a></li>
+        <li><a class="mobile-link" href="#candidates">Candidates</a></li>
+        <li class="pt-3"><a href="#contact" class="btn-gold w-full justify-center">Start a Conversation</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section id="home" class="hero relative isolate overflow-hidden bg-navy-900 text-white" aria-labelledby="hero-title">
+      <div class="hero-pattern absolute inset-0 -z-10" aria-hidden="true"></div>
+      <div class="mx-auto grid max-w-7xl gap-12 px-5 pb-20 pt-36 sm:pt-40 lg:grid-cols-12 lg:gap-8 lg:px-8 lg:pb-28 lg:pt-48">
+        <div class="lg:col-span-8">
+          <p class="reveal mb-6 inline-flex items-center gap-3 text-xs font-medium uppercase tracking-[0.28em] text-gold-300">
+            <span class="h-px w-10 bg-gold-400" aria-hidden="true"></span>
+            Executive Search · CXO Hiring · Leadership Advisory
+          </p>
+          <h1 id="hero-title" class="reveal font-display text-4xl font-semibold leading-[1.08] sm:text-6xl lg:text-7xl" style="--d:80ms">
+            Identifying visionary leaders for organizations <em class="not-italic text-gold-400">shaping tomorrow.</em>
+          </h1>
+          <p class="reveal mt-7 max-w-2xl text-lg leading-relaxed text-slate-300" style="--d:160ms">
+            Trusted since 2013. From PAN India talent acquisition to global leadership search, we partner with ambitious organizations to identify, engage and onboard the leaders who drive growth, innovation and lasting success.
+          </p>
+          <div class="reveal mt-10 flex flex-col gap-4 sm:flex-row" style="--d:240ms">
+            <a href="#contact" class="btn-gold">Discuss a Leadership Mandate
+              <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6l6 6-6 6"/></svg>
+            </a>
+            <a href="#candidates" class="btn-outline">I'm a Candidate</a>
+          </div>
+        </div>
+
+        <aside class="reveal lg:col-span-4 lg:self-end" style="--d:320ms" aria-label="Company at a glance">
+          <dl class="glass grid grid-cols-2 gap-px overflow-hidden rounded-lg">
+            <div class="stat"><dt>Established</dt><dd>2013</dd></div>
+            <div class="stat"><dt>Experience</dt><dd>13 yrs</dd></div>
+            <div class="stat"><dt>Coverage</dt><dd>PAN India</dd></div>
+            <div class="stat"><dt>Candidate fees</dt><dd>Zero</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ SECTORS STRIP ============ -->
+    <section class="border-b border-navy-900/10 bg-white" aria-label="Industries we serve">
+      <div class="mx-auto max-w-7xl px-5 py-8 lg:px-8">
+        <p class="mb-4 text-center text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">Hiring expertise across</p>
+        <ul class="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 font-display text-xl text-navy-800">
+          <li>Technology</li><li class="dot" aria-hidden="true"></li>
+          <li>BFSI</li><li class="dot" aria-hidden="true"></li>
+          <li>FMCG</li><li class="dot" aria-hidden="true"></li>
+          <li>BPO &amp; Shared Services</li><li class="dot" aria-hidden="true"></li>
+          <li>Sales &amp; Operations</li><li class="dot" aria-hidden="true"></li>
+          <li>Human Resources</li><li class="dot" aria-hidden="true"></li>
+          <li>Digital Transformation</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-12 lg:px-8">
+        <div class="lg:col-span-5">
+          <p class="eyebrow reveal">About SCS</p>
+          <h2 id="about-title" class="heading reveal" style="--d:80ms">A decade of trust. A new chapter of leadership.</h2>
+          <blockquote class="reveal mt-8 border-l-2 border-gold-500 pl-6 font-display text-2xl leading-snug text-navy-800" style="--d:160ms">
+            We don't just fill positions. We help organizations build leadership teams that define the future.
+          </blockquote>
+        </div>
+        <div class="space-y-6 text-[1.05rem] leading-relaxed text-slate-700 lg:col-span-7">
+          <p class="reveal">For over a decade, Search Career Services has been at the forefront of India's talent acquisition landscape, partnering with organizations to identify, engage and onboard exceptional talent across industries. Established in 2013, we have built our reputation through consistent delivery, deep market understanding and an unwavering commitment to successful employer–talent partnerships.</p>
+          <p class="reveal">We have supported businesses across PAN India — startups, growth-stage companies, mid-sized enterprises and established organizations — with their most critical hiring requirements.</p>
+          <p class="reveal">Today, as the talent landscape evolves, we are entering our next phase of growth: a strategic expansion into <strong class="font-semibold text-navy-900">Executive Search, Leadership Acquisition and CXO Hiring</strong>, helping organizations secure transformational leaders.</p>
+          <div class="reveal rounded-lg bg-navy-900 p-7 text-slate-200 shadow-xl">
+            <p class="text-xs font-semibold uppercase tracking-[0.25em] text-gold-300">Our vision</p>
+            <p class="mt-3 font-display text-2xl leading-snug text-white">To evolve into a globally recognized Executive Search and Leadership Advisory firm, connecting exceptional leadership talent with ambitious organizations worldwide.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXECUTIVE SEARCH ============ -->
+    <section id="executive-search" class="section bg-navy-900 text-white" aria-labelledby="exec-title">
+      <div class="mx-auto max-w-7xl px-5 lg:px-8">
+        <div class="max-w-3xl">
+          <p class="eyebrow !text-gold-300 reveal">Executive Search</p>
+          <h2 id="exec-title" class="heading !text-white reveal" style="--d:80ms">High-impact leaders, engaged with discretion.</h2>
+          <p class="reveal mt-5 text-lg leading-relaxed text-slate-300" style="--d:160ms">We identify and engage high-impact professionals across industries and geographies, representing your opportunity confidentially and with a consultative, market-informed approach.</p>
+        </div>
+
+        <ul class="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-4" role="list">
+          <li class="role-card reveal"><span class="role-abbr">CEO</span><span class="role-name">Chief Executive Officer</span></li>
+          <li class="role-card reveal" style="--d:60ms"><span class="role-abbr">COO</span><span class="role-name">Chief Operating Officer</span></li>
+          <li class="role-card reveal" style="--d:120ms"><span class="role-abbr">CFO</span><span class="role-name">Chief Financial Officer</span></li>
+          <li class="role-card reveal" style="--d:180ms"><span class="role-abbr">CTO</span><span class="role-name">Chief Technology Officer</span></li>
+          <li class="role-card reveal"><span class="role-abbr">CHRO</span><span class="role-name">Chief Human Resources Officer</span></li>
+          <li class="role-card reveal" style="--d:60ms"><span class="role-abbr">CMO</span><span class="role-name">Chief Marketing Officer</span></li>
+          <li class="role-card reveal" style="--d:120ms"><span class="role-abbr">VP</span><span class="role-name">Vice Presidents</span></li>
+          <li class="role-card reveal" style="--d:180ms"><span class="role-abbr">BH</span><span class="role-name">Business Heads</span></li>
+        </ul>
+
+        <div class="mt-4 grid gap-4 sm:grid-cols-3">
+          <div class="role-card reveal"><span class="role-abbr">DIR</span><span class="role-name">Directors</span></div>
+          <div class="role-card reveal" style="--d:60ms"><span class="role-abbr">CL</span><span class="role-name">Country Leaders</span></div>
+          <div class="role-card reveal" style="--d:120ms"><span class="role-abbr">GPL</span><span class="role-name">Global Practice Leaders</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section id="services" class="section" aria-labelledby="services-title">
+      <div class="mx-auto max-w-7xl px-5 lg:px-8">
+        <div class="max-w-3xl">
+          <p class="eyebrow reveal">What we do</p>
+          <h2 id="services-title" class="heading reveal" style="--d:80ms">Talent solutions, from the first hire to the C-suite.</h2>
+        </div>
+
+        <div class="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true"><svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3z"/></svg></span>
+            <h3>Executive Search</h3>
+            <p>Confidential, consultative search for CXO, VP, Director and Business Head mandates across industries and geographies.</p>
+          </article>
+          <article class="card reveal" style="--d:80ms">
+            <span class="card-icon" aria-hidden="true"><svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20v-2a4 4 0 00-4-4H7a4 4 0 00-4 4v2M10 10a4 4 0 100-8 4 4 0 000 8zm11 10v-2a4 4 0 00-3-3.9M16 2.1a4 4 0 010 7.8"/></svg></span>
+            <h3>Recruitment Solutions</h3>
+            <p>PAN India talent acquisition for startups, growth-stage firms, mid-sized enterprises and established organizations.</p>
+          </article>
+          <article class="card reveal" style="--d:160ms">
+            <span class="card-icon" aria-hidden="true"><svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path stroke-linecap="round" d="M21 21l-4.3-4.3"/></svg></span>
+            <h3>Talent Hunting</h3>
+            <p>Proactive, network-led sourcing of specialist and hard-to-find professionals, backed by ongoing market intelligence.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true"><svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></span>
+            <h3>Placement Services</h3>
+            <p>Helping candidates find the right roles while helping clients find the right talent, quickly. Always free for candidates.</p>
+          </article>
+          <article class="card reveal" style="--d:80ms">
+            <span class="card-icon" aria-hidden="true"><svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5z"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 14v7m-6-9.5V17c0 1 2.7 3 6 3s6-2 6-3v-5.5"/></svg></span>
+            <h3>Soft Skills Training</h3>
+            <p>Practical training that builds communication, confidence and workplace readiness for professionals and teams.</p>
+          </article>
+          <article class="card reveal" style="--d:160ms">
+            <span class="card-icon" aria-hidden="true"><svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="13" rx="2"/><path stroke-linecap="round" d="M3 10h18M7 15h3"/></svg></span>
+            <h3>Third-Party Payroll Support</h3>
+            <p>Payroll support that lets you onboard talent smoothly while your team stays focused on the business.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SECTORS ============ -->
+    <section id="sectors" class="section bg-slate-50" aria-labelledby="sectors-title">
+      <div class="mx-auto max-w-7xl px-5 lg:px-8">
+        <div class="text-center">
+          <h2 id="sectors-title" class="heading reveal">Sectors We Serve</h2>
+          <p class="reveal mx-auto mt-4 max-w-2xl text-lg text-slate-600" style="--d:80ms">Deep vertical knowledge across key economic growth engines.</p>
+          <span class="reveal mx-auto mt-6 block h-[3px] w-20 bg-navy-900" style="--d:140ms" aria-hidden="true"></span>
+        </div>
+
+        <ul class="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3" role="list">
+          <li class="sector-card reveal">
+            <h3>Technology &amp; IT</h3>
+            <p>Software, SaaS, Digital Transformation, AI &amp; Infrastructure Leaders.</p>
+          </li>
+          <li class="sector-card reveal" style="--d:70ms">
+            <h3>BFSI &amp; Fintech</h3>
+            <p>Banking, Financial Services, Insurance, and Wealth Management.</p>
+          </li>
+          <li class="sector-card reveal" style="--d:140ms">
+            <h3>FMCG &amp; Retail</h3>
+            <p>Consumer Goods, Supply Chain, E-Commerce, and Distribution.</p>
+          </li>
+          <li class="sector-card reveal">
+            <h3>BPO &amp; Shared Services</h3>
+            <p>Global Capability Centers (GCCs), ITES, and Operations.</p>
+          </li>
+          <li class="sector-card reveal" style="--d:70ms">
+            <h3>Sales &amp; Operations</h3>
+            <p>Revenue Leadership, Field Operations, and Business Expansion.</p>
+          </li>
+          <li class="sector-card reveal" style="--d:140ms">
+            <h3>Human Resources</h3>
+            <p>Talent Management, HR Business Partners, and People Ops.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CANDIDATES ============ -->
+    <section id="candidates" class="section" aria-labelledby="cand-title">
+      <div class="mx-auto max-w-7xl px-5 lg:px-8">
+        <div class="relative overflow-hidden rounded-2xl bg-navy-800 px-7 py-14 text-white sm:px-14 lg:px-20">
+          <div class="hero-pattern absolute inset-0 opacity-60" aria-hidden="true"></div>
+          <div class="relative grid items-center gap-10 lg:grid-cols-12">
+            <div class="lg:col-span-8">
+              <p class="eyebrow !text-gold-300 reveal">For candidates</p>
+              <h2 id="cand-title" class="heading !text-white reveal" style="--d:80ms">Your next role, without the fee.</h2>
+              <p class="reveal mt-5 max-w-2xl text-lg leading-relaxed text-slate-300" style="--d:160ms">We help candidates find suitable opportunities across IT, Non-IT, BPO, FMCG and BFSI. Placement support is provided at <strong class="text-white">no charge to candidates</strong>. Share your resume and our team will be in touch when a relevant mandate opens.</p>
+            </div>
+            <div class="reveal lg:col-span-4 lg:text-right" style="--d:240ms">
+              <a href="mailto:resume@search-career.com?subject=Resume%20submission" class="btn-gold">Send Your Resume</a>
+              <p class="mt-3 text-sm text-slate-300"><a class="underline-offset-4 hover:underline focus-visible:underline" href="mailto:resume@search-career.com">resume@search-career.com</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section pt-0" aria-labelledby="contact-title">
+      <div class="mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-12 lg:px-8">
+        <div class="lg:col-span-5">
+          <p class="eyebrow reveal">Contact</p>
+          <h2 id="contact-title" class="heading reveal" style="--d:80ms">Let's discuss your leadership needs.</h2>
+          <p class="reveal mt-5 leading-relaxed text-slate-600" style="--d:160ms">Tell us about your requirement. Every conversation is confidential.</p>
+
+          <dl class="reveal mt-10 space-y-6 text-slate-700" style="--d:240ms">
+            <div>
+              <dt class="contact-label">General enquiries</dt>
+              <dd><a class="contact-link" href="mailto:info@search-career.com">info@search-career.com</a></dd>
+            </div>
+            <div>
+              <dt class="contact-label">Clients &amp; business enquiries</dt>
+              <dd><a class="contact-link" href="mailto:client@search-career.com">client@search-career.com</a></dd>
+            </div>
+            <div>
+              <dt class="contact-label">Candidate resumes</dt>
+              <dd><a class="contact-link" href="mailto:resume@search-career.com">resume@search-career.com</a></dd>
+            </div>
+            <div>
+              <dt class="contact-label">Office</dt>
+              <dd><address class="not-italic leading-relaxed">GH-14, Paschim Vihar,<br />New Delhi – 110087, India</address></dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="lg:col-span-7">
+          <form id="contact-form" class="reveal rounded-xl border border-navy-900/10 bg-white p-7 shadow-xl sm:p-10" novalidate aria-describedby="form-note">
+            <fieldset class="mb-6">
+              <legend class="field-label">I am a</legend>
+              <div class="mt-2 grid grid-cols-2 gap-3">
+                <label class="choice"><input type="radio" name="type" value="client" checked class="sr-only peer" /><span>Hiring organization</span></label>
+                <label class="choice"><input type="radio" name="type" value="candidate" class="sr-only peer" /><span>Candidate</span></label>
+              </div>
+            </fieldset>
+
+            <div class="grid gap-6 sm:grid-cols-2">
+              <div>
+                <label for="name" class="field-label">Full name <span class="text-red-700" aria-hidden="true">*</span></label>
+                <input id="name" name="name" type="text" autocomplete="name" required class="field" aria-describedby="name-error" />
+                <p id="name-error" class="field-error" role="alert"></p>
+              </div>
+              <div>
+                <label for="email" class="field-label">Email <span class="text-red-700" aria-hidden="true">*</span></label>
+                <input id="email" name="email" type="email" autocomplete="email" required class="field" aria-describedby="email-error" />
+                <p id="email-error" class="field-error" role="alert"></p>
+              </div>
+              <div>
+                <label for="company" class="field-label"><span id="company-label">Organization</span></label>
+                <input id="company" name="company" type="text" autocomplete="organization" class="field" />
+              </div>
+              <div>
+                <label for="role" class="field-label">Role of interest</label>
+                <select id="role" name="role" class="field">
+                  <option value="">Select (optional)</option>
+                  <option>CEO / MD</option>
+                  <option>CXO (COO, CFO, CTO, CHRO, CMO)</option>
+                  <option>Vice President / Business Head</option>
+                  <option>Director / Country Leader</option>
+                  <option>Mid to senior management</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="mt-6">
+              <label for="message" class="field-label">Message <span class="text-red-700" aria-hidden="true">*</span></label>
+              <textarea id="message" name="message" rows="5" required class="field" aria-describedby="message-error"></textarea>
+              <p id="message-error" class="field-error" role="alert"></p>
+            </div>
+
+            <!-- Honeypot field for basic bot filtering -->
+            <div class="hidden" aria-hidden="true"><label>Leave blank <input type="text" name="website" tabindex="-1" autocomplete="off" /></label></div>
+
+            <div class="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+              <button type="submit" class="btn-navy">Send Enquiry</button>
+              <p id="form-note" class="text-sm text-slate-600">Opens your email app with the enquiry prefilled.</p>
+            </div>
+            <p id="form-status" class="mt-5 text-sm font-medium" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="bg-navy-950 text-slate-300">
+    <div class="mx-auto grid max-w-7xl gap-10 px-5 py-14 md:grid-cols-12 lg:px-8">
+      <div class="md:col-span-5">
+        <p class="font-display text-2xl font-semibold text-white">Search Career Services</p>
+        <p class="mt-1 text-xs uppercase tracking-[0.22em] text-gold-300">Executive Search · Leadership Advisory</p>
+        <p class="mt-5 max-w-sm text-sm leading-relaxed">Trusted since 2013. Connecting exceptional leadership talent with ambitious organizations.</p>
+      </div>
+      <nav class="md:col-span-3" aria-label="Footer">
+        <p class="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-white">Explore</p>
+        <ul class="space-y-2 text-sm">
+          <li><a class="footer-link" href="#about">About</a></li>
+          <li><a class="footer-link" href="#executive-search">Executive Search</a></li>
+          <li><a class="footer-link" href="#services">Services</a></li>
+          <li><a class="footer-link" href="#candidates">Candidates</a></li>
+          <li><a class="footer-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="md:col-span-4 text-sm">
+        <p class="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-white">Reach us</p>
+        <ul class="space-y-2">
+          <li><a class="footer-link" href="mailto:info@search-career.com">info@search-career.com</a></li>
+          <li><a class="footer-link" href="mailto:client@search-career.com">client@search-career.com</a></li>
+          <li><a class="footer-link" href="mailto:resume@search-career.com">resume@search-career.com</a></li>
+          <li class="pt-2 leading-relaxed">GH-14, Paschim Vihar,<br />New Delhi – 110087</li>
+          <li class="pt-2"><a class="footer-link" href="https://www.linkedin.com/in/searchcareerservices/" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (opens in a new tab)</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-white/10">
+      <p class="mx-auto max-w-7xl px-5 py-6 text-xs text-slate-400 lg:px-8">© <span id="year">2026</span> Search Career Services. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button id="to-top" type="button" class="to-top" aria-label="Back to top">
+    <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7"/></svg>
+  </button>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
